@@ -62,7 +62,10 @@
         },
         {
           "title": "DevOps & Cloud Platforms",
-          "items": ["AWS", "Google Cloud"]
+          "items": [
+            "AWS (S3, EC2, Lambda, RDS, DynamoDB, CloudFront, SQS, SNS, Cognito, CloudWatch, CloudTrail, API Gateway, CodePipeline, CodeBuild, CodeDeploy, IAM)",
+            "Google Cloud"
+          ]
         },
         {
           "title": "Design Samples & Tools",
