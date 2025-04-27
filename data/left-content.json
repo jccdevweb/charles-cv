@@ -8,13 +8,47 @@
       "title": "Core Qualifications",
       "subsections": [
         {
+          "title": "Frontend Development",
+          "items": ["React.js", "NextJS", "VanillaJS", "Angular"]
+        },
+        {
           "title": "Backend Development",
           "items": ["NodeJS", "PHP", "Java (Springboot)", "Python"]
         },
         {
-          "title": "Frontend Development",
-          "items": ["React.js", "NextJS", "VanillaJS", "Angular"]
+          "title": "Tech Stacks & Databases",
+          "items": [
+            "MERN",
+            "MEAN",
+            "MongoDB",
+            "Firebase",
+            "MySQL",
+            "PostgreSQL"
+          ]
         },
+        {
+          "title": "Version Control",
+          "items": ["Git (GitHub/GitLab/Bitbucket)"]
+        },
+          {
+          "title": "DevOps & Cloud Platforms",
+          "items": [
+            "AWS (S3, EC2, Lambda, RDS, DynamoDB, CloudFront, SQS, SNS, Cognito, CloudWatch, CloudTrail, API Gateway, CodePipeline, CodeBuild, CodeDeploy, IAM)",
+            "Google Cloud"
+          ]
+        },
+        {
+          "title": "Automation & Integration Platforms",
+          "items": ["ActiveCampaign", "Zapier"]
+        },
+        {
+          "title": "Payment Gateways",
+          "items": ["Stripe", "PayPal", "eWay"]
+        },
+        {
+          "title": "Project Management & Bug Tracking",
+          "items": ["Jira", "BugHerd", "Asana"]
+        }
         {
           "title": "Design & UI/UX",
           "items": [
@@ -41,10 +75,7 @@
             "Adobe XD"
           ]
         },
-        {
-          "title": "Version Control",
-          "items": ["Git (GitHub/GitLab/Bitbucket)"]
-        },
+
         {
           "title": "Web Performance Optimization",
           "items": [
@@ -62,37 +93,6 @@
             "Squarespace",
             "Silverstripe",
             "WooCommerce"
-          ]
-        },
-        {
-          "title": "DevOps & Cloud Platforms",
-          "items": [
-            "AWS (S3, EC2, Lambda, RDS, DynamoDB, CloudFront, SQS, SNS, Cognito, CloudWatch, CloudTrail, API Gateway, CodePipeline, CodeBuild, CodeDeploy, IAM)",
-            "Google Cloud"
-          ]
-        },
-
-        {
-          "title": "Automation & Integration Platforms",
-          "items": ["ActiveCampaign", "Zapier"]
-        },
-        {
-          "title": "Payment Gateways",
-          "items": ["Stripe", "PayPal", "eWay"]
-        },
-        {
-          "title": "Project Management & Bug Tracking",
-          "items": ["Jira", "BugHerd", "Asana"]
-        },
-        {
-          "title": "Tech Stacks & Databases",
-          "items": [
-            "MERN",
-            "MEAN",
-            "MongoDB",
-            "Firebase",
-            "MySQL",
-            "PostgreSQL"
           ]
         }
       ]
