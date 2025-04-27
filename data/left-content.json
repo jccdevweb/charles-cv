@@ -31,6 +31,25 @@
           "items": ["Git (GitHub/GitLab/Bitbucket)"]
         },
         {
+          "title": "DevOps & Cloud Platforms",
+          "items": [
+            "AWS (S3, EC2, Lambda, RDS, DynamoDB, CloudFront, SQS, SNS, Cognito, CloudWatch, CloudTrail, API Gateway, CodePipeline, CodeBuild, CodeDeploy, IAM)",
+            "Google Cloud"
+          ]
+        },
+        {
+          "title": "Automation & Integration Platforms",
+          "items": ["ActiveCampaign", "Zapier"]
+        },
+        {
+          "title": "Payment Gateways",
+          "items": ["Stripe", "PayPal", "eWay"]
+        },
+        {
+          "title": "Project Management & Bug Tracking",
+          "items": ["Jira", "BugHerd", "Asana"]
+        },
+        {
           "title": "Design & UI/UX",
           "items": [
             "Bootstrap",
