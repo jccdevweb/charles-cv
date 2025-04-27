@@ -34,10 +34,7 @@
             "SVG",
             "MUI (Material UI)",
             "Material Icons",
-            "Bootstrap",
-            "Bootstrap",
-            "Figma",
-            "Adobe XD"
+            "Bootstrap"
           ]
         },
         {
@@ -69,7 +66,7 @@
         },
         {
           "title": "Design Samples & Tools",
-          "items": ["Canva", "Shutterstock"]
+          "items": ["Canva", "Shutterstock", "Figma", "Adobe XD"]
         },
         {
           "title": "Automation & Integration Platforms",
