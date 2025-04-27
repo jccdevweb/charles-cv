@@ -18,6 +18,7 @@
         {
           "title": "Design & UI/UX",
           "items": [
+            "Bootstrap",
             "Media queries",
             "CSS Grid",
             "Flexbox",
@@ -34,7 +35,10 @@
             "SVG",
             "MUI (Material UI)",
             "Material Icons",
-            "Bootstrap"
+            "Canva",
+            "Shutterstock",
+            "Figma",
+            "Adobe XD"
           ]
         },
         {
@@ -67,10 +71,7 @@
             "Google Cloud"
           ]
         },
-        {
-          "title": "Design Samples & Tools",
-          "items": ["Canva", "Shutterstock", "Figma", "Adobe XD"]
-        },
+
         {
           "title": "Automation & Integration Platforms",
           "items": ["ActiveCampaign", "Zapier"]
