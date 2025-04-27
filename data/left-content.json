@@ -8,15 +8,15 @@
       "title": "Core Qualifications",
       "subsections": [
         {
-          "title": "Backend",
+          "title": "Backend Development",
           "items": ["NodeJS", "PHP", "Java (Springboot)", "Python"]
         },
         {
-          "title": "Frontend Frameworks",
-          "items": ["React.js", "NextJS", "VanillaJS"]
+          "title": "Frontend Development",
+          "items": ["React.js", "NextJS", "VanillaJS", "Angular"]
         },
         {
-          "title": "Design",
+          "title": "Design & UI/UX",
           "items": [
             "Media queries",
             "CSS Grid",
@@ -31,7 +31,13 @@
             "Dark Mode",
             "Typography",
             "Iconography",
-            "SVG"
+            "SVG",
+            "MUI (Material UI)",
+            "Material Icons",
+            "Bootstrap",
+            "Bootstrap",
+            "Figma",
+            "Adobe XD"
           ]
         },
         {
@@ -39,7 +45,7 @@
           "items": ["Git (GitHub/GitLab/Bitbucket)"]
         },
         {
-          "title": "WebPerformance Optimization",
+          "title": "Web Performance Optimization",
           "items": [
             "Minification and Compression",
             "Lazy Loading",
@@ -48,16 +54,45 @@
           ]
         },
         {
-          "title": "CMS Builders/Ecommerce",
-          "items": ["WordPress", "Shopify", "Squarespace", "Silverstripe"]
+          "title": "CMS Builders & Ecommerce",
+          "items": [
+            "WordPress",
+            "Shopify",
+            "Squarespace",
+            "Silverstripe",
+            "WooCommerce"
+          ]
         },
         {
-          "title": "Dev Ops",
+          "title": "DevOps & Cloud Platforms",
           "items": ["AWS", "Google Cloud"]
         },
         {
-          "title": "Design Samples",
+          "title": "Design Samples & Tools",
           "items": ["Canva", "Shutterstock"]
+        },
+        {
+          "title": "Automation & Integration Platforms",
+          "items": ["ActiveCampaign", "Zapier"]
+        },
+        {
+          "title": "Payment Gateways",
+          "items": ["Stripe", "PayPal", "eWay"]
+        },
+        {
+          "title": "Project Management & Bug Tracking",
+          "items": ["Jira", "BugHerd", "Asana"]
+        },
+        {
+          "title": "Tech Stacks & Databases",
+          "items": [
+            "MERN",
+            "MEAN",
+            "MongoDB",
+            "Firebase",
+            "MySQL",
+            "PostgreSQL"
+          ]
         }
       ]
     },
