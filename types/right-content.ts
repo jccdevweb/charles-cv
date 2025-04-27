@@ -1,4 +1,3 @@
-// types.ts (or in the same file)
 export type RightContent = {
   professionalSummary: {
     title: string;
@@ -6,6 +5,9 @@ export type RightContent = {
   };
   experience: {
     title: string;
-    items: string[];
+    company: string; // Company name
+    location: string; // Location
+    date: string; // Date range
+    items: string[]; // List of items (responsibilities/achievements)
   }[];
 };

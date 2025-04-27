@@ -25,30 +25,36 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col sm:flex-row min-h-[calc(100vh-250px)]">
-        {" "}
-        {/* Adjust height */}
         {/* Left Content Section */}
         <div className="sm:w-80 p-2 overflow-y-auto h-full border-r-4 border-[#7FAEA7] flex-shrink-0 sm:block hidden">
           {leftContentData.sections.map((section, index) => (
             <div key={index}>
               <p className="text-md font-semibold">{section.title}</p>
-              {section.items &&
-                section.items.map((item, itemIndex) => (
-                  <p key={itemIndex} className="text-xs inline-block mr-2">
-                    {item}
-                  </p>
-                ))}
+              {section.items && (
+                <div className="flex flex-wrap gap-2">
+                  {section.items.map((item, itemIndex) => (
+                    <p key={itemIndex} className="text-xs inline-block mr-2">
+                      {item}
+                    </p>
+                  ))}
+                </div>
+              )}
               {section.subsections &&
                 section.subsections.map((subsection, subIndex) => (
-                  <div key={subIndex}>
+                  <div key={subIndex} className="mt-2">
                     <p className="text-sm font-semibold leading-[1.8]">
                       {subsection.title}:
                     </p>
-                    {subsection.items.map((item, itemIndex) => (
-                      <p key={itemIndex} className="text-xs inline-block mr-2">
-                        {item}
-                      </p>
-                    ))}
+                    <div className="flex flex-wrap gap-2">
+                      {subsection.items.map((item, itemIndex) => (
+                        <p
+                          key={itemIndex}
+                          className="text-xs inline-block mr-2"
+                        >
+                          {item}
+                        </p>
+                      ))}
+                    </div>
                   </div>
                 ))}
               {index !== leftContentData.sections.length - 1 && (
@@ -57,6 +63,7 @@ export default function Home() {
             </div>
           ))}
         </div>
+
         {/* Right Content Section */}
         <div className="sm:p-2 p-4 w-full flex-1 overflow-y-auto">
           <div className="flex flex-col gap-2">
@@ -72,11 +79,14 @@ export default function Home() {
             <p className="text-md font-semibold leading-[1.8]">Experience</p>
 
             {rightContentData.experience.map((job, jobIndex) => (
-              <div key={jobIndex}>
+              <div key={jobIndex} className="mt-2">
                 <p className="text-md font-semibold leading-[1.8]">
                   {job.title}
                 </p>
-                <ul className="list-disc pl-5 text-xs leading-[1.9]">
+                <p className="text-xs text-gray-600">
+                  {job.company} | {job.location} | {job.date}
+                </p>
+                <ul className="list-disc pl-5 text-xs leading-[1.9] mt-1">
                   {job.items.map((item, itemIndex) => (
                     <li key={itemIndex}>{item}</li>
                   ))}
