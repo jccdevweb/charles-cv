@@ -1,0 +1,30 @@
+{
+  "professionalSummary": {
+    "title": "Professional Summary",
+    "content": "As a motivated Full Stack Developer, I’m eager to apply my experience in app development and web projects. I'm seeking opportunities where I can manage web development from start to finish while growing professionally. My skills include building websites, setting up servers, and providing high-quality technical support. I'm committed to delivering excellent web solutions and staying updated with industry trends."
+  },
+  "experience": [
+    {
+      "title": "Full Stack Developer",
+      "items": [
+        "Experience with AWS S3, Lambda, JavaScript, Spring Boot, ZUL, Java APIs, and ReactJS for a Membership Portal Application.",
+        "Integrated third-party payment gateways (ECPay, QCRB, Dragonpay) with MySQL databases.",
+        "Set up local server tunneling for improved development efficiency."
+      ]
+    },
+    {
+      "title": "Web Developer",
+      "items": [
+        "Developed and enhanced e-commerce sites on WordPress and WooCommerce.",
+        "Optimized performance, added user-friendly features, and integrated payment gateways.",
+        "Created targeted landing pages to boost lead generation and conversions."
+      ]
+    },
+    {
+      "title": "Hosting Support",
+      "items": [
+        "Managed servers and provided expert support, specializing in diagnosing and resolving WordPress issues, and overseeing web hosting, server configurations, and domain management."
+      ]
+    }
+  ]
+}

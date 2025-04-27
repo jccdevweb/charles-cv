@@ -1,0 +1,72 @@
+{
+  "sections": [
+    {
+      "title": "Contact",
+      "items": ["+639193711606", "jcc.devweb@gmail.com", "github.com/jccdevweb"]
+    },
+    {
+      "title": "Core Qualifications",
+      "subsections": [
+        {
+          "title": "Backend",
+          "items": ["NodeJS", "PHP", "Java (Springboot)", "Python"]
+        },
+        {
+          "title": "Frontend Frameworks",
+          "items": ["React.js", "NextJS", "VanillaJS"]
+        },
+        {
+          "title": "Design",
+          "items": [
+            "Media queries",
+            "CSS Grid",
+            "Flexbox",
+            "Responsive Design",
+            "Tailwind CSS",
+            "ShadCN",
+            "Design Systems",
+            "UI/UX Principles",
+            "Mobile-First Design",
+            "Accessibility (a11y)",
+            "Dark Mode",
+            "Typography",
+            "Iconography",
+            "SVG"
+          ]
+        },
+        {
+          "title": "Version Control",
+          "items": ["Git (GitHub/GitLab/Bitbucket)"]
+        },
+        {
+          "title": "WebPerformance Optimization",
+          "items": [
+            "Minification and Compression",
+            "Lazy Loading",
+            "Caching Strategies",
+            "Performance Audit Tools (e.g., Lighthouse)"
+          ]
+        },
+        {
+          "title": "CMS Builders/Ecommerce",
+          "items": ["WordPress", "Shopify", "Squarespace", "Silverstripe"]
+        },
+        {
+          "title": "Dev Ops",
+          "items": ["AWS", "Google Cloud"]
+        },
+        {
+          "title": "Design Samples",
+          "items": ["Canva", "Shutterstock"]
+        }
+      ]
+    },
+    {
+      "title": "Education",
+      "items": [
+        "ACCESS COMPUTER",
+        "COLLEGE BACHELOR OF SCIENCE: COMPUTER SCIENCE"
+      ]
+    }
+  ]
+}
