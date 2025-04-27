@@ -24,9 +24,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col sm:flex-row min-h-[calc(100vh-250px)]">
+      <div className="flex flex-col-reverse flex-col sm:flex-row">
         {/* Left Content Section */}
-        <div className="sm:w-80 p-2 overflow-y-auto h-full border-r-4 border-[#7FAEA7] flex-shrink-0 sm:block hidden">
+        <div className="w-full sm:w-80 p-4 overflow-y-visible h-auto sm:h-full border-b-4 sm:border-b-0 sm:border-r-4 border-[#7FAEA7] flex-shrink-0">
           {leftContentData.sections.map((section, index) => (
             <div key={index}>
               <p className="text-md font-semibold">{section.title}</p>
