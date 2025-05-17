@@ -75,7 +75,6 @@
             "Adobe XD"
           ]
         },
-
         {
           "title": "Web Performance Optimization",
           "items": [
@@ -94,7 +93,32 @@
             "Silverstripe",
             "WooCommerce"
           ]
+        },
+        {
+          "title": "Languages & Markup",
+          "items": [
+            "JavaScript",
+            "TypeScript",
+            "jQuery",
+            "HTML",
+            "CSS",
+            "SCSS/SASS",
+            "JSON",
+            "YAML",
+            "XML",
+            "Handlebars",
+            "EJS"
+          ]
         }
+      ]
+    },
+    {
+      "title": "Projects",
+      "items": [
+        "https://catalinaclub.com.au",
+        "https://www.chrg.com.au",
+        "https://cleaner.com.au",
+        "https://eastsgroup.com.au"
       ]
     },
     {

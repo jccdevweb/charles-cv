@@ -10,9 +10,10 @@
       "location": "Taguig City",
       "date": "Dec 2023 - Sep 2024",
       "items": [
-        "Experience with AWS S3, Lambda, JavaScript, Spring Boot, ZUL, Java APIs, and ReactJS for a Membership Portal Application.",
-        "Integrated third-party payment gateways (ECPay, QCRB, Dragonpay) with MySQL databases.",
-        "Set up local server tunneling for improved development efficiency."
+        "Worked with AWS S3, Lambda, JavaScript, Spring Boot, ZUL, Java APIs, and ReactJS to build a Membership Portal Application.",
+        "Connected payment gateways like ECPay, QCRB, and Dragonpay to MySQL databases, handling tasks like sending money, adding funds, E-Load, QRPH, and Instapay. Made sure transactions were secure and smooth by adding encryption and token-based authentication. Key tasks included:<br />- Security: Used token authentication, encrypted sensitive data, and validated API requests.<br />- Database: Designed MySQL tables to track payments, logs, and user balances.<br />- Reliability: Added error handling and retry features to keep things running during failures.<br />- Monitoring: Set up logging and alerts to catch and fix any payment issues quickly.",
+        "Collaborated closely with cross-functional teams and mentored junior developers to support their growth and ensure project success.",
+        "Set up local server tunneling to speed up development and testing."
       ]
     },
     {
@@ -21,9 +22,11 @@
       "location": "Pasig City",
       "date": "Sep 2020 - Dec 2022",
       "items": [
-        "Developed and enhanced e-commerce sites on WordPress and WooCommerce.",
-        "Optimized performance, added user-friendly features, and integrated payment gateways.",
-        "Created targeted landing pages to boost lead generation and conversions."
+        "Developed and improved e-commerce websites using WordPress and WooCommerce, focusing on creating smooth and engaging user experiences.",
+        "Optimized site performance, implemented user-friendly features, and integrated secure payment gateways to ensure seamless transactions.",
+        "Designed and launched targeted landing pages to increase lead generation and improve conversion rates.",
+        "Worked closely with clients, designers, and marketing teams to understand requirements and deliver solutions that meet business goals.",
+        "Communicated project progress and collaborated effectively with team members to ensure timely delivery and high-quality results."
       ]
     },
     {
@@ -32,7 +35,10 @@
       "location": "Pasig City",
       "date": "Oct 2016 - Aug 2018",
       "items": [
-        "Managed servers and provided expert support, specializing in diagnosing and resolving WordPress issues, and overseeing web hosting, server configurations, and domain management."
+        "Managed web servers and provided expert technical support, specializing in diagnosing and resolving WordPress-related issues.",
+        "Handled web hosting environments, server configurations, and domain management to ensure stable and secure website operations.",
+        "Communicated effectively with clients and internal teams to troubleshoot problems quickly and provide timely solutions.",
+        "Collaborated with cross-functional teams to maintain system uptime and optimize server performance."
       ]
     }
   ]
