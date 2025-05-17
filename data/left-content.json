@@ -34,7 +34,7 @@
           "title": "DevOps & Cloud Platforms",
           "items": [
             "AWS (S3, EC2, Lambda, RDS, DynamoDB, CloudFront, SQS, SNS, Cognito, CloudWatch, CloudTrail, API Gateway, CodePipeline, CodeBuild, CodeDeploy, IAM)",
-            "Google Cloud"
+            "Google Cloud (BigQuery, Cloud Storage, Cloud Functions, Vertex AI, IAM, Cloud Run, Cloud Build)"
           ]
         },
         {
