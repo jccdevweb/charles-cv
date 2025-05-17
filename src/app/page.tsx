@@ -17,26 +17,17 @@ const sidebarSections = leftContentData.sections.filter(
 );
 
 export default function Home() {
-  const downloadCV = async () => {
-    try {
-      const response = await fetch("/api/generate-pdf");
-      if (!response.ok) throw new Error("Failed to fetch");
+  const downloadCV = () => {
+    // Path relative to the public folder, which is served at root '/'
+    const fileUrl = "/charles-cv.pdf";
 
-      const blob = await response.blob();
-      const url = window.URL.createObjectURL(blob);
-
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = "charles-cv.pdf";
-      document.body.appendChild(a);
-      a.click();
-
-      a.remove();
-      window.URL.revokeObjectURL(url);
-    } catch (error) {
-      console.error(error);
-      alert("Failed to download CV. Please try again later.");
-    }
+    // Create a temporary anchor element
+    const link = document.createElement("a");
+    link.href = fileUrl;
+    link.download = "Joseph_Charles_C_Vargas_CV.pdf"; // Set desired file name for download
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
