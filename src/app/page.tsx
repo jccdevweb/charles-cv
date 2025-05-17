@@ -180,14 +180,12 @@ export default function Home() {
         </div>
       </div>{" "}
       {/* Download Button outside main container, centered top */}
-      <div className="w-full flex justify-center my-4 cursor-pointer">
-        <button
-          onClick={downloadCV}
-          className="bg-[#7FAEA7] text-white px-6 py-2 rounded hover:bg-[#6b958d] transition cursor-pointer"
-        >
-          Download CV
-        </button>
-      </div>
+      <button
+        onClick={downloadCV}
+        className="fixed right-4 bottom-4 lg:top-4 lg:bottom-auto bg-[#7FAEA7] text-white px-4 py-2 rounded shadow-lg hover:bg-[#6b958d] transition z-50 cursor-pointer"
+      >
+        Download CV
+      </button>
     </>
   );
 }
