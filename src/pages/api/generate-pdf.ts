@@ -20,7 +20,9 @@ export default async function handler(
     const page = await browser.newPage();
 
     // Go to your page, wait for full load
-    await page.goto("http://localhost:3000", { waitUntil: "networkidle0" });
+    await page.goto("https://charles-cv-mu.vercel.app", {
+      waitUntil: "networkidle0",
+    });
 
     // Inject CSS to remove margins and prevent page breaks
     await page.addStyleTag({
